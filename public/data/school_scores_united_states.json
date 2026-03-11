@@ -1,1697 +1,897 @@
 {
-  "generated_date": "2026-03-10",
+  "generated_date": "2026-03-11",
   "market_location": "United States",
-  "schools_analyzed": 17,
+  "schools_analyzed": 14,
   "results": [
-    {
-      "school_name": "Emory University",
-      "school_location": "Unknown",
-      "market_location": "United States",
-      "course_count": 49,
-      "pedagogy_distribution": {
-        "lecture": 39,
-        "field_study": 4,
-        "workshop": 6
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 2.6,
-          "market_demand": 2.5,
-          "alignment": 0.1
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 2.9,
-          "market_demand": 6.5,
-          "alignment": -3.6
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 17.1,
-          "market_demand": 5.7,
-          "alignment": 11.4
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 9.7,
-          "market_demand": 3.7,
-          "alignment": 6.0
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 13.9,
-          "market_demand": 13.4,
-          "alignment": 0.5
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 4.1,
-          "market_demand": 2.5,
-          "alignment": 1.6
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 2.8,
-          "market_demand": 3.2,
-          "alignment": -0.4
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 3.2,
-          "market_demand": 5.5,
-          "alignment": -2.3
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 2.9,
-          "market_demand": 3.5,
-          "alignment": -0.6
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 3.0,
-          "market_demand": 6.6,
-          "alignment": -3.6
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 8.3,
-          "market_demand": 3.9,
-          "alignment": 4.4
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 13.5,
-          "market_demand": 5.0,
-          "alignment": 8.5
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 6.3,
-          "market_demand": 6.1,
-          "alignment": 0.2
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 11.2,
-          "market_demand": 7.0,
-          "alignment": 4.2
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 12.8,
-          "market_demand": 4.6,
-          "alignment": 8.2
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 9.7,
-          "market_demand": 4.0,
-          "alignment": 5.7
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 6.3,
-          "market_demand": 3.9,
-          "alignment": 2.4
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 10.6,
-          "market_demand": 1.5,
-          "alignment": 9.1
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 6.9,
-          "market_demand": 9.1,
-          "alignment": -2.2
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 2.9,
-          "market_demand": 1.7,
-          "alignment": 1.2
-        }
-      },
-      "overall_alignment_score": 99.8
-    },
-    {
-      "school_name": "Columbia Business School",
-      "school_location": "New York, NY",
-      "market_location": "United States",
-      "course_count": 0,
-      "pedagogy_distribution": {},
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 0.0,
-          "market_demand": 2.5,
-          "alignment": -2.5
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 0.0,
-          "market_demand": 6.5,
-          "alignment": -6.5
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 0.0,
-          "market_demand": 5.7,
-          "alignment": -5.7
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.7,
-          "alignment": -3.7
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 13.4,
-          "alignment": -13.4
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 0.0,
-          "market_demand": 2.5,
-          "alignment": -2.5
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.2,
-          "alignment": -3.2
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 5.5,
-          "alignment": -5.5
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.5,
-          "alignment": -3.5
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 0.0,
-          "market_demand": 6.6,
-          "alignment": -6.6
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.9,
-          "alignment": -3.9
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 0.0,
-          "market_demand": 5.0,
-          "alignment": -5.0
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 0.0,
-          "market_demand": 6.1,
-          "alignment": -6.1
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 0.0,
-          "market_demand": 7.0,
-          "alignment": -7.0
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 0.0,
-          "market_demand": 4.6,
-          "alignment": -4.6
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 0.0,
-          "market_demand": 4.0,
-          "alignment": -4.0
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.9,
-          "alignment": -3.9
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 0.0,
-          "market_demand": 1.5,
-          "alignment": -1.5
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 9.1,
-          "alignment": -9.1
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 0.0,
-          "market_demand": 1.7,
-          "alignment": -1.7
-        }
-      },
-      "overall_alignment_score": 99.7
-    },
-    {
-      "school_name": "UTA McCombs School of Business",
-      "school_location": "Texas",
-      "market_location": "United States",
-      "course_count": 0,
-      "pedagogy_distribution": {},
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 0.0,
-          "market_demand": 2.5,
-          "alignment": -2.5
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 0.0,
-          "market_demand": 6.5,
-          "alignment": -6.5
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 0.0,
-          "market_demand": 5.7,
-          "alignment": -5.7
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.7,
-          "alignment": -3.7
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 13.4,
-          "alignment": -13.4
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 0.0,
-          "market_demand": 2.5,
-          "alignment": -2.5
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.2,
-          "alignment": -3.2
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 5.5,
-          "alignment": -5.5
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.5,
-          "alignment": -3.5
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 0.0,
-          "market_demand": 6.6,
-          "alignment": -6.6
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.9,
-          "alignment": -3.9
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 0.0,
-          "market_demand": 5.0,
-          "alignment": -5.0
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 0.0,
-          "market_demand": 6.1,
-          "alignment": -6.1
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 0.0,
-          "market_demand": 7.0,
-          "alignment": -7.0
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 0.0,
-          "market_demand": 4.6,
-          "alignment": -4.6
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 0.0,
-          "market_demand": 4.0,
-          "alignment": -4.0
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 0.0,
-          "market_demand": 3.9,
-          "alignment": -3.9
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 0.0,
-          "market_demand": 1.5,
-          "alignment": -1.5
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 0.0,
-          "market_demand": 9.1,
-          "alignment": -9.1
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 0.0,
-          "market_demand": 1.7,
-          "alignment": -1.7
-        }
-      },
-      "overall_alignment_score": 99.7
-    },
-    {
-      "school_name": "Stanford GSB",
-      "school_location": "California",
-      "market_location": "United States",
-      "course_count": 461,
-      "pedagogy_distribution": {
-        "workshop": 111,
-        "lecture": 254,
-        "case_study": 38,
-        "capstone": 11,
-        "simulation": 26,
-        "practicum": 18,
-        "consulting_project": 3
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 24.6,
-          "market_demand": 2.5,
-          "alignment": 22.1
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 29.4,
-          "market_demand": 6.5,
-          "alignment": 22.9
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 30.6,
-          "market_demand": 5.7,
-          "alignment": 24.9
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 29.3,
-          "market_demand": 3.7,
-          "alignment": 25.6
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 31.5,
-          "market_demand": 13.4,
-          "alignment": 18.1
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 18.2,
-          "market_demand": 2.5,
-          "alignment": 15.7
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 11.8,
-          "market_demand": 3.2,
-          "alignment": 8.6
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 18.0,
-          "market_demand": 5.5,
-          "alignment": 12.5
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 17.0,
-          "market_demand": 3.5,
-          "alignment": 13.5
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 11.9,
-          "market_demand": 6.6,
-          "alignment": 5.3
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 32.8,
-          "market_demand": 3.9,
-          "alignment": 28.9
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 21.3,
-          "market_demand": 5.0,
-          "alignment": 16.3
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 33.6,
-          "market_demand": 6.1,
-          "alignment": 27.5
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 45.0,
-          "market_demand": 7.0,
-          "alignment": 38.0
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 15.9,
-          "market_demand": 4.6,
-          "alignment": 11.3
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 19.8,
-          "market_demand": 4.0,
-          "alignment": 15.8
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 19.7,
-          "market_demand": 3.9,
-          "alignment": 15.8
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 25.2,
-          "market_demand": 1.5,
-          "alignment": 23.7
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 23.0,
-          "market_demand": 9.1,
-          "alignment": 13.9
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 5.3,
-          "market_demand": 1.7,
-          "alignment": 3.6
-        }
-      },
-      "overall_alignment_score": 99.1
-    },
-    {
-      "school_name": "University of Michigan",
-      "school_location": "Michigan",
-      "market_location": "United States",
-      "course_count": 148,
-      "pedagogy_distribution": {
-        "lecture": 84,
-        "workshop": 39,
-        "field_study": 2,
-        "capstone": 4,
-        "simulation": 6,
-        "case_study": 12,
-        "consulting_project": 1
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 16.8,
-          "market_demand": 2.5,
-          "alignment": 14.3
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 29.8,
-          "market_demand": 6.5,
-          "alignment": 23.3
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 35.6,
-          "market_demand": 5.7,
-          "alignment": 29.9
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 21.1,
-          "market_demand": 3.7,
-          "alignment": 17.4
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 34.5,
-          "market_demand": 13.4,
-          "alignment": 21.1
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 11.0,
-          "market_demand": 2.5,
-          "alignment": 8.5
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 10.9,
-          "market_demand": 3.2,
-          "alignment": 7.7
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 20.1,
-          "market_demand": 5.5,
-          "alignment": 14.6
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 14.1,
-          "market_demand": 3.5,
-          "alignment": 10.6
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 9.9,
-          "market_demand": 6.6,
-          "alignment": 3.3
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 24.8,
-          "market_demand": 3.9,
-          "alignment": 20.9
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 19.3,
-          "market_demand": 5.0,
-          "alignment": 14.3
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 42.0,
-          "market_demand": 6.1,
-          "alignment": 35.9
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 44.0,
-          "market_demand": 7.0,
-          "alignment": 37.0
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 11.1,
-          "market_demand": 4.6,
-          "alignment": 6.5
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 17.5,
-          "market_demand": 4.0,
-          "alignment": 13.5
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 14.7,
-          "market_demand": 3.9,
-          "alignment": 10.8
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 19.4,
-          "market_demand": 1.5,
-          "alignment": 17.9
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 17.0,
-          "market_demand": 9.1,
-          "alignment": 7.9
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 5.1,
-          "market_demand": 1.7,
-          "alignment": 3.4
-        }
-      },
-      "overall_alignment_score": 99.1
-    },
-    {
-      "school_name": "Northwestern University Kellogg School of Management",
-      "school_location": "Illinois",
-      "market_location": "United States",
-      "course_count": 140,
-      "pedagogy_distribution": {
-        "lecture": 87,
-        "practicum": 3,
-        "case_study": 12,
-        "workshop": 27,
-        "simulation": 6,
-        "field_study": 3,
-        "capstone": 2
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 18.3,
-          "market_demand": 2.5,
-          "alignment": 15.8
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 27.0,
-          "market_demand": 6.5,
-          "alignment": 20.5
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 29.3,
-          "market_demand": 5.7,
-          "alignment": 23.6
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 25.7,
-          "market_demand": 3.7,
-          "alignment": 22.0
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 35.3,
-          "market_demand": 13.4,
-          "alignment": 21.9
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 12.4,
-          "market_demand": 2.5,
-          "alignment": 9.9
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 14.9,
-          "market_demand": 3.2,
-          "alignment": 11.7
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 14.6,
-          "market_demand": 5.5,
-          "alignment": 9.1
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 12.8,
-          "market_demand": 3.5,
-          "alignment": 9.3
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 13.7,
-          "market_demand": 6.6,
-          "alignment": 7.1
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 29.5,
-          "market_demand": 3.9,
-          "alignment": 25.6
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 26.4,
-          "market_demand": 5.0,
-          "alignment": 21.4
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 32.6,
-          "market_demand": 6.1,
-          "alignment": 26.5
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 42.6,
-          "market_demand": 7.0,
-          "alignment": 35.6
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 12.5,
-          "market_demand": 4.6,
-          "alignment": 7.9
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 24.2,
-          "market_demand": 4.0,
-          "alignment": 20.2
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 17.8,
-          "market_demand": 3.9,
-          "alignment": 13.9
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 16.6,
-          "market_demand": 1.5,
-          "alignment": 15.1
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 22.2,
-          "market_demand": 9.1,
-          "alignment": 13.1
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 6.6,
-          "market_demand": 1.7,
-          "alignment": 4.9
-        }
-      },
-      "overall_alignment_score": 99.1
-    },
-    {
-      "school_name": "NYU Stern School of Business",
-      "school_location": "New York",
-      "market_location": "United States",
-      "course_count": 354,
-      "pedagogy_distribution": {
-        "lecture": 243,
-        "workshop": 63,
-        "case_study": 24,
-        "capstone": 10,
-        "simulation": 6,
-        "practicum": 2,
-        "field_study": 3,
-        "consulting_project": 3
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 20.1,
-          "market_demand": 2.5,
-          "alignment": 17.6
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 39.2,
-          "market_demand": 6.5,
-          "alignment": 32.7
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 32.6,
-          "market_demand": 5.7,
-          "alignment": 26.9
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 29.7,
-          "market_demand": 3.7,
-          "alignment": 26.0
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 30.8,
-          "market_demand": 13.4,
-          "alignment": 17.4
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 11.5,
-          "market_demand": 2.5,
-          "alignment": 9.0
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 9.8,
-          "market_demand": 3.2,
-          "alignment": 6.6
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 15.0,
-          "market_demand": 5.5,
-          "alignment": 9.5
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 14.3,
-          "market_demand": 3.5,
-          "alignment": 10.8
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 8.5,
-          "market_demand": 6.6,
-          "alignment": 1.9
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 34.8,
-          "market_demand": 3.9,
-          "alignment": 30.9
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 24.6,
-          "market_demand": 5.0,
-          "alignment": 19.6
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 41.9,
-          "market_demand": 6.1,
-          "alignment": 35.8
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 48.8,
-          "market_demand": 7.0,
-          "alignment": 41.8
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 14.5,
-          "market_demand": 4.6,
-          "alignment": 9.9
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 20.9,
-          "market_demand": 4.0,
-          "alignment": 16.9
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 16.4,
-          "market_demand": 3.9,
-          "alignment": 12.5
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 12.0,
-          "market_demand": 1.5,
-          "alignment": 10.5
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 22.4,
-          "market_demand": 9.1,
-          "alignment": 13.3
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 3.7,
-          "market_demand": 1.7,
-          "alignment": 2.0
-        }
-      },
-      "overall_alignment_score": 99.0
-    },
     {
       "school_name": "Yale School of Management",
       "school_location": "Connecticut",
       "market_location": "United States",
       "course_count": 481,
+      "courses_scored": 481,
       "pedagogy_distribution": {
-        "lecture": 354,
-        "workshop": 59,
-        "simulation": 19,
-        "case_study": 28,
-        "capstone": 12,
+        "lecture": 425,
+        "case_study": 13,
+        "workshop": 3,
+        "capstone": 10,
         "consulting_project": 2,
+        "simulation": 21,
         "practicum": 6,
         "field_study": 1
       },
       "cluster_scores": {
         "0": {
           "label": "Sustainability & ESG",
-          "school_preparation_score": 25.4,
+          "school_preparation_score": 100.0,
           "market_demand": 2.5,
-          "alignment": 22.9
+          "alignment": 97.5
         },
         "1": {
           "label": "Private Equity & Investment",
-          "school_preparation_score": 34.9,
+          "school_preparation_score": 100.0,
           "market_demand": 6.5,
-          "alignment": 28.4
+          "alignment": 93.5
         },
         "2": {
           "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 31.3,
+          "school_preparation_score": 100.0,
           "market_demand": 5.7,
-          "alignment": 25.6
+          "alignment": 94.3
         },
         "3": {
           "label": "Tech Product & Strategy",
-          "school_preparation_score": 33.0,
+          "school_preparation_score": 100.0,
           "market_demand": 3.7,
-          "alignment": 29.3
+          "alignment": 96.3
         },
         "4": {
           "label": "Strategic Project Management",
-          "school_preparation_score": 32.7,
+          "school_preparation_score": 100.0,
           "market_demand": 13.4,
-          "alignment": 19.3
+          "alignment": 86.6
         },
         "5": {
           "label": "Public Sector Finance",
-          "school_preparation_score": 19.9,
+          "school_preparation_score": 90.7,
           "market_demand": 2.5,
-          "alignment": 17.4
+          "alignment": 88.2
         },
         "6": {
           "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 16.3,
+          "school_preparation_score": 38.0,
           "market_demand": 3.2,
-          "alignment": 13.1
+          "alignment": 34.8
         },
         "7": {
           "label": "Supply Chain Management",
-          "school_preparation_score": 20.1,
+          "school_preparation_score": 95.0,
           "market_demand": 5.5,
-          "alignment": 14.6
+          "alignment": 89.5
         },
         "8": {
           "label": "Compliance & Regulatory",
-          "school_preparation_score": 19.6,
+          "school_preparation_score": 100.0,
           "market_demand": 3.5,
-          "alignment": 16.1
+          "alignment": 96.5
         },
         "9": {
           "label": "Healthcare Operations",
-          "school_preparation_score": 16.3,
+          "school_preparation_score": 95.8,
           "market_demand": 6.6,
-          "alignment": 9.7
+          "alignment": 89.2
         },
         "10": {
           "label": "Management Consulting",
-          "school_preparation_score": 40.3,
+          "school_preparation_score": 97.8,
           "market_demand": 3.9,
-          "alignment": 36.4
+          "alignment": 93.9
         },
         "11": {
           "label": "Marketing & Communications",
-          "school_preparation_score": 26.2,
+          "school_preparation_score": 100.0,
           "market_demand": 5.0,
-          "alignment": 21.2
+          "alignment": 95.0
         },
         "12": {
           "label": "Financial Analysis",
-          "school_preparation_score": 40.1,
+          "school_preparation_score": 98.2,
           "market_demand": 6.1,
-          "alignment": 34.0
+          "alignment": 92.1
         },
         "13": {
           "label": "Corporate Strategy",
-          "school_preparation_score": 50.4,
+          "school_preparation_score": 100.0,
           "market_demand": 7.0,
-          "alignment": 43.4
+          "alignment": 93.0
         },
         "14": {
           "label": "Cloud & Infrastructure",
-          "school_preparation_score": 17.2,
+          "school_preparation_score": 36.0,
           "market_demand": 4.6,
-          "alignment": 12.6
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 22.6,
-          "market_demand": 4.0,
-          "alignment": 18.6
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 24.5,
-          "market_demand": 3.9,
-          "alignment": 20.6
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 21.3,
-          "market_demand": 1.5,
-          "alignment": 19.8
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 24.9,
-          "market_demand": 9.1,
-          "alignment": 15.8
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 8.3,
-          "market_demand": 1.7,
-          "alignment": 6.6
-        }
-      },
-      "overall_alignment_score": 98.9
-    },
-    {
-      "school_name": "Duke Fuqua School of Business",
-      "school_location": "North Carolina",
-      "market_location": "United States",
-      "course_count": 383,
-      "pedagogy_distribution": {
-        "lecture": 255,
-        "workshop": 78,
-        "case_study": 17,
-        "simulation": 13,
-        "practicum": 15,
-        "capstone": 3,
-        "field_study": 2
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 21.7,
-          "market_demand": 2.5,
-          "alignment": 19.2
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 29.0,
-          "market_demand": 6.5,
-          "alignment": 22.5
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 37.3,
-          "market_demand": 5.7,
-          "alignment": 31.6
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 31.0,
-          "market_demand": 3.7,
-          "alignment": 27.3
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 37.8,
-          "market_demand": 13.4,
-          "alignment": 24.4
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 18.2,
-          "market_demand": 2.5,
-          "alignment": 15.7
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 16.7,
-          "market_demand": 3.2,
-          "alignment": 13.5
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 25.2,
-          "market_demand": 5.5,
-          "alignment": 19.7
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 20.3,
-          "market_demand": 3.5,
-          "alignment": 16.8
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 21.8,
-          "market_demand": 6.6,
-          "alignment": 15.2
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 37.9,
-          "market_demand": 3.9,
-          "alignment": 34.0
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 27.6,
-          "market_demand": 5.0,
-          "alignment": 22.6
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 42.2,
-          "market_demand": 6.1,
-          "alignment": 36.1
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 50.3,
-          "market_demand": 7.0,
-          "alignment": 43.3
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 16.9,
-          "market_demand": 4.6,
-          "alignment": 12.3
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 22.6,
-          "market_demand": 4.0,
-          "alignment": 18.6
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 23.3,
-          "market_demand": 3.9,
-          "alignment": 19.4
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 21.4,
-          "market_demand": 1.5,
-          "alignment": 19.9
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 22.9,
-          "market_demand": 9.1,
-          "alignment": 13.8
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 9.6,
-          "market_demand": 1.7,
-          "alignment": 7.9
-        }
-      },
-      "overall_alignment_score": 98.9
-    },
-    {
-      "school_name": "The_University_of_Chicago_Booth_School_of_Business",
-      "school_location": "Illinois",
-      "market_location": "United States",
-      "course_count": 222,
-      "pedagogy_distribution": {
-        "lecture": 175,
-        "case_study": 5,
-        "field_study": 2,
-        "workshop": 34,
-        "practicum": 1,
-        "simulation": 4,
-        "consulting_project": 1
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 18.5,
-          "market_demand": 2.5,
-          "alignment": 16.0
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 44.0,
-          "market_demand": 6.5,
-          "alignment": 37.5
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 40.7,
-          "market_demand": 5.7,
-          "alignment": 35.0
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 31.0,
-          "market_demand": 3.7,
-          "alignment": 27.3
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 33.3,
-          "market_demand": 13.4,
-          "alignment": 19.9
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 19.5,
-          "market_demand": 2.5,
-          "alignment": 17.0
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 16.6,
-          "market_demand": 3.2,
-          "alignment": 13.4
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 21.5,
-          "market_demand": 5.5,
-          "alignment": 16.0
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 20.1,
-          "market_demand": 3.5,
-          "alignment": 16.6
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 15.7,
-          "market_demand": 6.6,
-          "alignment": 9.1
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 35.0,
-          "market_demand": 3.9,
-          "alignment": 31.1
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 24.7,
-          "market_demand": 5.0,
-          "alignment": 19.7
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 45.6,
-          "market_demand": 6.1,
-          "alignment": 39.5
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 45.0,
-          "market_demand": 7.0,
-          "alignment": 38.0
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 17.3,
-          "market_demand": 4.6,
-          "alignment": 12.7
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 22.9,
-          "market_demand": 4.0,
-          "alignment": 18.9
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 21.1,
-          "market_demand": 3.9,
-          "alignment": 17.2
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 19.3,
-          "market_demand": 1.5,
-          "alignment": 17.8
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 26.3,
-          "market_demand": 9.1,
-          "alignment": 17.2
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 9.6,
-          "market_demand": 1.7,
-          "alignment": 7.9
-        }
-      },
-      "overall_alignment_score": 98.9
-    },
-    {
-      "school_name": "Tuck_School_of_Business_at_Dartmouth",
-      "school_location": "New Hampshire",
-      "market_location": "United States",
-      "course_count": 127,
-      "pedagogy_distribution": {
-        "lecture": 96,
-        "workshop": 16,
-        "field_study": 2,
-        "case_study": 4,
-        "simulation": 5,
-        "practicum": 4
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 29.1,
-          "market_demand": 2.5,
-          "alignment": 26.6
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 36.1,
-          "market_demand": 6.5,
-          "alignment": 29.6
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 32.3,
-          "market_demand": 5.7,
-          "alignment": 26.6
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 33.2,
-          "market_demand": 3.7,
-          "alignment": 29.5
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 35.7,
-          "market_demand": 13.4,
-          "alignment": 22.3
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 21.1,
-          "market_demand": 2.5,
-          "alignment": 18.6
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 18.3,
-          "market_demand": 3.2,
-          "alignment": 15.1
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 27.0,
-          "market_demand": 5.5,
-          "alignment": 21.5
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 19.2,
-          "market_demand": 3.5,
-          "alignment": 15.7
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 18.5,
-          "market_demand": 6.6,
-          "alignment": 11.9
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 41.9,
-          "market_demand": 3.9,
-          "alignment": 38.0
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 28.4,
-          "market_demand": 5.0,
-          "alignment": 23.4
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 42.3,
-          "market_demand": 6.1,
-          "alignment": 36.2
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 52.9,
-          "market_demand": 7.0,
-          "alignment": 45.9
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 17.2,
-          "market_demand": 4.6,
-          "alignment": 12.6
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 28.0,
-          "market_demand": 4.0,
-          "alignment": 24.0
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 26.0,
-          "market_demand": 3.9,
-          "alignment": 22.1
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 23.7,
-          "market_demand": 1.5,
-          "alignment": 22.2
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 25.3,
-          "market_demand": 9.1,
-          "alignment": 16.2
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 8.1,
-          "market_demand": 1.7,
-          "alignment": 6.4
-        }
-      },
-      "overall_alignment_score": 98.8
-    },
-    {
-      "school_name": "Cornell Johnson Graduate School of Management",
-      "school_location": "New York",
-      "market_location": "United States",
-      "course_count": 205,
-      "pedagogy_distribution": {
-        "lecture": 140,
-        "capstone": 2,
-        "workshop": 31,
-        "case_study": 14,
-        "practicum": 6,
-        "field_study": 2,
-        "simulation": 8,
-        "consulting_project": 2
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 21.2,
-          "market_demand": 2.5,
-          "alignment": 18.7
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 37.9,
-          "market_demand": 6.5,
           "alignment": 31.4
         },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 35.7,
-          "market_demand": 5.7,
-          "alignment": 30.0
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 38.4,
-          "market_demand": 3.7,
-          "alignment": 34.7
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 39.6,
-          "market_demand": 13.4,
-          "alignment": 26.2
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 18.7,
-          "market_demand": 2.5,
-          "alignment": 16.2
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 15.2,
-          "market_demand": 3.2,
-          "alignment": 12.0
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 21.6,
-          "market_demand": 5.5,
-          "alignment": 16.1
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 18.1,
-          "market_demand": 3.5,
-          "alignment": 14.6
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 13.2,
-          "market_demand": 6.6,
-          "alignment": 6.6
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 37.3,
-          "market_demand": 3.9,
-          "alignment": 33.4
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 29.8,
-          "market_demand": 5.0,
-          "alignment": 24.8
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 42.2,
-          "market_demand": 6.1,
-          "alignment": 36.1
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 50.0,
-          "market_demand": 7.0,
-          "alignment": 43.0
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 23.7,
-          "market_demand": 4.6,
-          "alignment": 19.1
-        },
         "15": {
           "label": "Product Marketing",
-          "school_preparation_score": 27.8,
+          "school_preparation_score": 100.0,
           "market_demand": 4.0,
-          "alignment": 23.8
+          "alignment": 96.0
         },
         "16": {
           "label": "Sales Operations",
-          "school_preparation_score": 26.4,
+          "school_preparation_score": 100.0,
           "market_demand": 3.9,
-          "alignment": 22.5
+          "alignment": 96.1
         },
         "17": {
           "label": "HR & People Operations",
-          "school_preparation_score": 22.1,
+          "school_preparation_score": 96.4,
           "market_demand": 1.5,
-          "alignment": 20.6
+          "alignment": 94.9
         },
         "18": {
           "label": "Product Management",
-          "school_preparation_score": 33.9,
+          "school_preparation_score": 100.0,
           "market_demand": 9.1,
-          "alignment": 24.8
+          "alignment": 90.9
         },
         "19": {
           "label": "Medical Education Administration",
-          "school_preparation_score": 7.5,
+          "school_preparation_score": 19.8,
           "market_demand": 1.7,
-          "alignment": 5.8
+          "alignment": 18.1
         }
       },
-      "overall_alignment_score": 98.8
+      "overall_alignment_score": 92.6
+    },
+    {
+      "school_name": "MIT Sloan School of Management",
+      "school_location": "Massacuhusetts",
+      "market_location": "United States",
+      "course_count": 361,
+      "courses_scored": 361,
+      "pedagogy_distribution": {
+        "lecture": 315,
+        "simulation": 24,
+        "capstone": 4,
+        "field_study": 6,
+        "case_study": 5,
+        "workshop": 5,
+        "consulting_project": 1,
+        "practicum": 1
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 100.0,
+          "market_demand": 2.5,
+          "alignment": 97.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.7,
+          "alignment": 94.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 98.8,
+          "market_demand": 3.7,
+          "alignment": 95.1
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 13.4,
+          "alignment": 86.6
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 86.0,
+          "market_demand": 2.5,
+          "alignment": 83.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 94.0,
+          "market_demand": 3.2,
+          "alignment": 90.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.5,
+          "alignment": 94.5
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 92.0,
+          "market_demand": 3.5,
+          "alignment": 88.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 73.4,
+          "market_demand": 6.6,
+          "alignment": 66.8
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.9,
+          "alignment": 96.1
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 98.8,
+          "market_demand": 5.0,
+          "alignment": 93.8
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 95.0,
+          "market_demand": 6.1,
+          "alignment": 88.9
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 7.0,
+          "alignment": 93.0
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 74.0,
+          "market_demand": 4.6,
+          "alignment": 69.4
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 96.0,
+          "market_demand": 4.0,
+          "alignment": 92.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 0.0,
+          "market_demand": 3.9,
+          "alignment": -3.9
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 100.0,
+          "market_demand": 1.5,
+          "alignment": 98.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 9.1,
+          "alignment": 90.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 17.0,
+          "market_demand": 1.7,
+          "alignment": 15.3
+        }
+      },
+      "overall_alignment_score": 90.2
     },
     {
       "school_name": "UC Berkeley Haas School of Business",
       "school_location": "California",
       "market_location": "United States",
       "course_count": 425,
+      "courses_scored": 425,
       "pedagogy_distribution": {
-        "workshop": 43,
-        "lecture": 343,
+        "workshop": 5,
+        "lecture": 396,
         "consulting_project": 5,
-        "simulation": 9,
-        "case_study": 18,
+        "case_study": 8,
         "capstone": 2,
+        "simulation": 4,
         "practicum": 2,
         "field_study": 3
       },
       "cluster_scores": {
         "0": {
           "label": "Sustainability & ESG",
-          "school_preparation_score": 24.7,
+          "school_preparation_score": 100.0,
           "market_demand": 2.5,
-          "alignment": 22.2
+          "alignment": 97.5
         },
         "1": {
           "label": "Private Equity & Investment",
-          "school_preparation_score": 39.7,
+          "school_preparation_score": 100.0,
           "market_demand": 6.5,
-          "alignment": 33.2
+          "alignment": 93.5
         },
         "2": {
           "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 35.3,
+          "school_preparation_score": 97.8,
           "market_demand": 5.7,
-          "alignment": 29.6
+          "alignment": 92.1
         },
         "3": {
           "label": "Tech Product & Strategy",
-          "school_preparation_score": 34.6,
+          "school_preparation_score": 98.1,
           "market_demand": 3.7,
-          "alignment": 30.9
+          "alignment": 94.4
         },
         "4": {
           "label": "Strategic Project Management",
-          "school_preparation_score": 38.6,
+          "school_preparation_score": 100.0,
           "market_demand": 13.4,
-          "alignment": 25.2
+          "alignment": 86.6
         },
         "5": {
           "label": "Public Sector Finance",
-          "school_preparation_score": 22.0,
+          "school_preparation_score": 85.0,
           "market_demand": 2.5,
-          "alignment": 19.5
+          "alignment": 82.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 95.0,
+          "market_demand": 3.2,
+          "alignment": 91.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 95.0,
+          "market_demand": 5.5,
+          "alignment": 89.5
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 75.0,
+          "market_demand": 3.5,
+          "alignment": 71.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 90.0,
+          "market_demand": 6.6,
+          "alignment": 83.4
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.9,
+          "alignment": 96.1
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.0,
+          "alignment": 95.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 96.6,
+          "market_demand": 6.1,
+          "alignment": 90.5
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 97.0,
+          "market_demand": 7.0,
+          "alignment": 90.0
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 36.0,
+          "market_demand": 4.6,
+          "alignment": 31.4
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 100.0,
+          "market_demand": 4.0,
+          "alignment": 96.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 19.0,
+          "market_demand": 3.9,
+          "alignment": 15.1
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 95.0,
+          "market_demand": 1.5,
+          "alignment": 93.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 9.1,
+          "alignment": 90.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 38.0,
+          "market_demand": 1.7,
+          "alignment": 36.3
+        }
+      },
+      "overall_alignment_score": 89.7
+    },
+    {
+      "school_name": "University of Pennsylvania Wharton",
+      "school_location": "Pennsylvania",
+      "market_location": "United States",
+      "course_count": 717,
+      "courses_scored": 717,
+      "pedagogy_distribution": {
+        "lecture": 612,
+        "simulation": 42,
+        "case_study": 18,
+        "workshop": 21,
+        "capstone": 18,
+        "practicum": 3,
+        "consulting_project": 3
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 95.0,
+          "market_demand": 2.5,
+          "alignment": 92.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.7,
+          "alignment": 94.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.7,
+          "alignment": 96.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 88.4,
+          "market_demand": 13.4,
+          "alignment": 75.0
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 95.0,
+          "market_demand": 2.5,
+          "alignment": 92.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.2,
+          "alignment": 96.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 95.0,
+          "market_demand": 5.5,
+          "alignment": 89.5
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.5,
+          "alignment": 96.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.6,
+          "alignment": 93.4
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.9,
+          "alignment": 96.1
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.0,
+          "alignment": 95.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.1,
+          "alignment": 93.9
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 7.0,
+          "alignment": 93.0
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 0.0,
+          "market_demand": 4.6,
+          "alignment": -4.6
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 100.0,
+          "market_demand": 4.0,
+          "alignment": 96.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 0.0,
+          "market_demand": 3.9,
+          "alignment": -3.9
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 100.0,
+          "market_demand": 1.5,
+          "alignment": 98.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 9.1,
+          "alignment": 90.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 47.0,
+          "market_demand": 1.7,
+          "alignment": 45.3
+        }
+      },
+      "overall_alignment_score": 88.4
+    },
+    {
+      "school_name": "Stanford GSB",
+      "school_location": "California",
+      "market_location": "United States",
+      "course_count": 461,
+      "courses_scored": 461,
+      "pedagogy_distribution": {
+        "workshop": 20,
+        "lecture": 363,
+        "simulation": 29,
+        "capstone": 11,
+        "case_study": 17,
+        "practicum": 18,
+        "consulting_project": 3
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 100.0,
+          "market_demand": 2.5,
+          "alignment": 97.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.7,
+          "alignment": 94.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.7,
+          "alignment": 96.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 95.3,
+          "market_demand": 13.4,
+          "alignment": 81.9
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 100.0,
+          "market_demand": 2.5,
+          "alignment": 97.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 74.0,
+          "market_demand": 3.2,
+          "alignment": 70.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 95.0,
+          "market_demand": 5.5,
+          "alignment": 89.5
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 86.0,
+          "market_demand": 3.5,
+          "alignment": 82.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 39.1,
+          "market_demand": 6.6,
+          "alignment": 32.5
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.9,
+          "alignment": 96.1
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.0,
+          "alignment": 95.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.1,
+          "alignment": 93.9
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 7.0,
+          "alignment": 93.0
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 37.0,
+          "market_demand": 4.6,
+          "alignment": 32.4
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 93.0,
+          "market_demand": 4.0,
+          "alignment": 89.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 44.0,
+          "market_demand": 3.9,
+          "alignment": 40.1
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 100.0,
+          "market_demand": 1.5,
+          "alignment": 98.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 95.0,
+          "market_demand": 9.1,
+          "alignment": 85.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 100.0,
+          "market_demand": 1.7,
+          "alignment": 98.3
+        }
+      },
+      "overall_alignment_score": 87.8
+    },
+    {
+      "school_name": "The_University_of_Chicago_Booth_School_of_Business",
+      "school_location": "Illinois",
+      "market_location": "United States",
+      "course_count": 222,
+      "courses_scored": 222,
+      "pedagogy_distribution": {
+        "lecture": 199,
+        "case_study": 4,
+        "field_study": 2,
+        "workshop": 11,
+        "simulation": 4,
+        "practicum": 1,
+        "consulting_project": 1
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 95.0,
+          "market_demand": 2.5,
+          "alignment": 92.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 98.1,
+          "market_demand": 5.7,
+          "alignment": 92.4
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 95.0,
+          "market_demand": 3.7,
+          "alignment": 91.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 87.0,
+          "market_demand": 13.4,
+          "alignment": 73.6
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 53.0,
+          "market_demand": 2.5,
+          "alignment": 50.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.2,
+          "alignment": 96.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 97.1,
+          "market_demand": 5.5,
+          "alignment": 91.6
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 87.0,
+          "market_demand": 3.5,
+          "alignment": 83.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 53.0,
+          "market_demand": 6.6,
+          "alignment": 46.4
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 97.5,
+          "market_demand": 3.9,
+          "alignment": 93.6
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 95.0,
+          "market_demand": 5.0,
+          "alignment": 90.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.1,
+          "alignment": 93.9
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 7.0,
+          "alignment": 93.0
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 0.0,
+          "market_demand": 4.6,
+          "alignment": -4.6
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 60.4,
+          "market_demand": 4.0,
+          "alignment": 56.4
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 19.0,
+          "market_demand": 3.9,
+          "alignment": 15.1
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 94.0,
+          "market_demand": 1.5,
+          "alignment": 92.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 94.0,
+          "market_demand": 9.1,
+          "alignment": 84.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 18.0,
+          "market_demand": 1.7,
+          "alignment": 16.3
+        }
+      },
+      "overall_alignment_score": 81.1
+    },
+    {
+      "school_name": "Cornell Johnson Graduate School of Management",
+      "school_location": "New York",
+      "market_location": "United States",
+      "course_count": 205,
+      "courses_scored": 205,
+      "pedagogy_distribution": {
+        "lecture": 174,
+        "capstone": 2,
+        "workshop": 7,
+        "practicum": 6,
+        "case_study": 8,
+        "field_study": 2,
+        "simulation": 4,
+        "consulting_project": 2
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 100.0,
+          "market_demand": 2.5,
+          "alignment": 97.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 95.0,
+          "market_demand": 5.7,
+          "alignment": 89.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.7,
+          "alignment": 96.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 87.0,
+          "market_demand": 13.4,
+          "alignment": 73.6
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 51.0,
+          "market_demand": 2.5,
+          "alignment": 48.5
         },
         "6": {
           "label": "Pharmaceutical Product Management",
@@ -1701,184 +901,880 @@
         },
         "7": {
           "label": "Supply Chain Management",
-          "school_preparation_score": 24.2,
+          "school_preparation_score": 100.0,
           "market_demand": 5.5,
-          "alignment": 18.7
+          "alignment": 94.5
         },
         "8": {
           "label": "Compliance & Regulatory",
-          "school_preparation_score": 21.1,
+          "school_preparation_score": 87.0,
           "market_demand": 3.5,
-          "alignment": 17.6
+          "alignment": 83.5
         },
         "9": {
           "label": "Healthcare Operations",
-          "school_preparation_score": 18.2,
+          "school_preparation_score": 0.0,
           "market_demand": 6.6,
-          "alignment": 11.6
+          "alignment": -6.6
         },
         "10": {
           "label": "Management Consulting",
-          "school_preparation_score": 38.3,
+          "school_preparation_score": 100.0,
           "market_demand": 3.9,
-          "alignment": 34.4
+          "alignment": 96.1
         },
         "11": {
           "label": "Marketing & Communications",
-          "school_preparation_score": 30.1,
+          "school_preparation_score": 100.0,
           "market_demand": 5.0,
-          "alignment": 25.1
+          "alignment": 95.0
         },
         "12": {
           "label": "Financial Analysis",
-          "school_preparation_score": 44.1,
+          "school_preparation_score": 100.0,
           "market_demand": 6.1,
-          "alignment": 38.0
+          "alignment": 93.9
         },
         "13": {
           "label": "Corporate Strategy",
-          "school_preparation_score": 50.1,
+          "school_preparation_score": 100.0,
           "market_demand": 7.0,
-          "alignment": 43.1
+          "alignment": 93.0
         },
         "14": {
           "label": "Cloud & Infrastructure",
-          "school_preparation_score": 21.5,
+          "school_preparation_score": 55.0,
           "market_demand": 4.6,
-          "alignment": 16.9
+          "alignment": 50.4
         },
         "15": {
           "label": "Product Marketing",
-          "school_preparation_score": 28.1,
+          "school_preparation_score": 57.0,
           "market_demand": 4.0,
-          "alignment": 24.1
+          "alignment": 53.0
         },
         "16": {
           "label": "Sales Operations",
-          "school_preparation_score": 26.8,
+          "school_preparation_score": 0.0,
           "market_demand": 3.9,
-          "alignment": 22.9
+          "alignment": -3.9
         },
         "17": {
           "label": "HR & People Operations",
-          "school_preparation_score": 25.7,
+          "school_preparation_score": 87.0,
           "market_demand": 1.5,
-          "alignment": 24.2
+          "alignment": 85.5
         },
         "18": {
           "label": "Product Management",
-          "school_preparation_score": 28.9,
+          "school_preparation_score": 100.0,
           "market_demand": 9.1,
-          "alignment": 19.8
+          "alignment": 90.9
         },
         "19": {
           "label": "Medical Education Administration",
-          "school_preparation_score": 11.7,
+          "school_preparation_score": 0.0,
           "market_demand": 1.7,
-          "alignment": 10.0
+          "alignment": -1.7
         }
       },
-      "overall_alignment_score": 98.7
+      "overall_alignment_score": 77.4
     },
     {
-      "school_name": "MIT Sloan School of Management",
-      "school_location": "Massacuhusetts",
+      "school_name": "Duke Fuqua School of Business",
+      "school_location": "North Carolina",
       "market_location": "United States",
-      "course_count": 361,
+      "course_count": 383,
+      "courses_scored": 383,
       "pedagogy_distribution": {
-        "lecture": 232,
-        "simulation": 22,
-        "workshop": 74,
-        "case_study": 19,
-        "capstone": 6,
-        "field_study": 6,
-        "consulting_project": 1,
-        "practicum": 1
+        "lecture": 340,
+        "case_study": 8,
+        "simulation": 10,
+        "practicum": 15,
+        "workshop": 5,
+        "capstone": 3,
+        "field_study": 2
       },
       "cluster_scores": {
         "0": {
           "label": "Sustainability & ESG",
-          "school_preparation_score": 26.1,
+          "school_preparation_score": 96.4,
           "market_demand": 2.5,
-          "alignment": 23.6
+          "alignment": 93.9
         },
         "1": {
           "label": "Private Equity & Investment",
-          "school_preparation_score": 36.5,
+          "school_preparation_score": 100.0,
           "market_demand": 6.5,
-          "alignment": 30.0
+          "alignment": 93.5
         },
         "2": {
           "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 40.7,
+          "school_preparation_score": 100.0,
           "market_demand": 5.7,
-          "alignment": 35.0
+          "alignment": 94.3
         },
         "3": {
           "label": "Tech Product & Strategy",
-          "school_preparation_score": 41.0,
+          "school_preparation_score": 91.0,
           "market_demand": 3.7,
-          "alignment": 37.3
+          "alignment": 87.3
         },
         "4": {
           "label": "Strategic Project Management",
-          "school_preparation_score": 42.1,
+          "school_preparation_score": 91.1,
           "market_demand": 13.4,
-          "alignment": 28.7
+          "alignment": 77.7
         },
         "5": {
           "label": "Public Sector Finance",
-          "school_preparation_score": 21.0,
+          "school_preparation_score": 0.0,
           "market_demand": 2.5,
-          "alignment": 18.5
+          "alignment": -2.5
         },
         "6": {
           "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 17.7,
+          "school_preparation_score": 94.0,
           "market_demand": 3.2,
-          "alignment": 14.5
+          "alignment": 90.8
         },
         "7": {
           "label": "Supply Chain Management",
-          "school_preparation_score": 28.7,
+          "school_preparation_score": 98.8,
           "market_demand": 5.5,
-          "alignment": 23.2
+          "alignment": 93.3
         },
         "8": {
           "label": "Compliance & Regulatory",
-          "school_preparation_score": 19.5,
+          "school_preparation_score": 95.0,
           "market_demand": 3.5,
-          "alignment": 16.0
+          "alignment": 91.5
         },
         "9": {
           "label": "Healthcare Operations",
-          "school_preparation_score": 16.4,
+          "school_preparation_score": 95.0,
           "market_demand": 6.6,
-          "alignment": 9.8
+          "alignment": 88.4
         },
         "10": {
           "label": "Management Consulting",
-          "school_preparation_score": 43.9,
+          "school_preparation_score": 100.0,
           "market_demand": 3.9,
-          "alignment": 40.0
+          "alignment": 96.1
         },
         "11": {
           "label": "Marketing & Communications",
-          "school_preparation_score": 25.4,
+          "school_preparation_score": 100.0,
           "market_demand": 5.0,
-          "alignment": 20.4
+          "alignment": 95.0
         },
         "12": {
           "label": "Financial Analysis",
-          "school_preparation_score": 40.9,
+          "school_preparation_score": 100.0,
           "market_demand": 6.1,
-          "alignment": 34.8
+          "alignment": 93.9
         },
         "13": {
           "label": "Corporate Strategy",
-          "school_preparation_score": 54.0,
+          "school_preparation_score": 100.0,
           "market_demand": 7.0,
-          "alignment": 47.0
+          "alignment": 93.0
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 37.0,
+          "market_demand": 4.6,
+          "alignment": 32.4
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 74.0,
+          "market_demand": 4.0,
+          "alignment": 70.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 0.0,
+          "market_demand": 3.9,
+          "alignment": -3.9
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 97.4,
+          "market_demand": 1.5,
+          "alignment": 95.9
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 0.0,
+          "market_demand": 9.1,
+          "alignment": -9.1
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 0.0,
+          "market_demand": 1.7,
+          "alignment": -1.7
+        }
+      },
+      "overall_alignment_score": 76.3
+    },
+    {
+      "school_name": "NYU Stern School of Business",
+      "school_location": "New York",
+      "market_location": "United States",
+      "course_count": 354,
+      "courses_scored": 354,
+      "pedagogy_distribution": {
+        "lecture": 306,
+        "workshop": 2,
+        "capstone": 10,
+        "case_study": 13,
+        "simulation": 15,
+        "practicum": 2,
+        "field_study": 3,
+        "consulting_project": 3
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 100.0,
+          "market_demand": 2.5,
+          "alignment": 97.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.7,
+          "alignment": 94.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.7,
+          "alignment": 96.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 17.0,
+          "market_demand": 13.4,
+          "alignment": 3.6
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 51.0,
+          "market_demand": 2.5,
+          "alignment": 48.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 57.0,
+          "market_demand": 3.2,
+          "alignment": 53.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.5,
+          "alignment": 94.5
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.5,
+          "alignment": 96.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 89.8,
+          "market_demand": 6.6,
+          "alignment": 83.2
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.9,
+          "alignment": 96.1
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.0,
+          "alignment": 95.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 95.8,
+          "market_demand": 6.1,
+          "alignment": 89.7
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 7.0,
+          "alignment": 93.0
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 74.0,
+          "market_demand": 4.6,
+          "alignment": 69.4
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 100.0,
+          "market_demand": 4.0,
+          "alignment": 96.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 20.0,
+          "market_demand": 3.9,
+          "alignment": 16.1
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 100.0,
+          "market_demand": 1.5,
+          "alignment": 98.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 54.0,
+          "market_demand": 9.1,
+          "alignment": 44.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 0.0,
+          "market_demand": 1.7,
+          "alignment": -1.7
+        }
+      },
+      "overall_alignment_score": 75.0
+    },
+    {
+      "school_name": "University of Michigan",
+      "school_location": "Michigan",
+      "market_location": "United States",
+      "course_count": 148,
+      "courses_scored": 148,
+      "pedagogy_distribution": {
+        "lecture": 131,
+        "field_study": 2,
+        "simulation": 7,
+        "capstone": 3,
+        "case_study": 2,
+        "practicum": 1,
+        "workshop": 1,
+        "consulting_project": 1
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 93.0,
+          "market_demand": 2.5,
+          "alignment": 90.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.7,
+          "alignment": 94.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 73.0,
+          "market_demand": 3.7,
+          "alignment": 69.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 87.0,
+          "market_demand": 13.4,
+          "alignment": 73.6
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 34.0,
+          "market_demand": 2.5,
+          "alignment": 31.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 38.0,
+          "market_demand": 3.2,
+          "alignment": 34.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 98.8,
+          "market_demand": 5.5,
+          "alignment": 93.3
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 87.0,
+          "market_demand": 3.5,
+          "alignment": 83.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 54.0,
+          "market_demand": 6.6,
+          "alignment": 47.4
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.9,
+          "alignment": 96.1
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.0,
+          "alignment": 95.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 95.0,
+          "market_demand": 6.1,
+          "alignment": 88.9
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 96.5,
+          "market_demand": 7.0,
+          "alignment": 89.5
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 37.0,
+          "market_demand": 4.6,
+          "alignment": 32.4
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 54.0,
+          "market_demand": 4.0,
+          "alignment": 50.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 0.0,
+          "market_demand": 3.9,
+          "alignment": -3.9
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 100.0,
+          "market_demand": 1.5,
+          "alignment": 98.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 55.0,
+          "market_demand": 9.1,
+          "alignment": 45.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 0.0,
+          "market_demand": 1.7,
+          "alignment": -1.7
+        }
+      },
+      "overall_alignment_score": 74.8
+    },
+    {
+      "school_name": "Northwestern University Kellogg School of Management",
+      "school_location": "Illinois",
+      "market_location": "United States",
+      "course_count": 140,
+      "courses_scored": 140,
+      "pedagogy_distribution": {
+        "lecture": 121,
+        "practicum": 3,
+        "simulation": 4,
+        "case_study": 6,
+        "field_study": 3,
+        "workshop": 1,
+        "capstone": 2
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 99.8,
+          "market_demand": 2.5,
+          "alignment": 97.3
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.7,
+          "alignment": 94.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 94.0,
+          "market_demand": 3.7,
+          "alignment": 90.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 87.0,
+          "market_demand": 13.4,
+          "alignment": 73.6
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 62.5,
+          "market_demand": 2.5,
+          "alignment": 60.0
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.2,
+          "alignment": 96.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 69.0,
+          "market_demand": 5.5,
+          "alignment": 63.5
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 17.0,
+          "market_demand": 3.5,
+          "alignment": 13.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 83.4,
+          "market_demand": 6.6,
+          "alignment": 76.8
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 93.4,
+          "market_demand": 3.9,
+          "alignment": 89.5
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 95.0,
+          "market_demand": 5.0,
+          "alignment": 90.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 97.7,
+          "market_demand": 6.1,
+          "alignment": 91.6
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 98.4,
+          "market_demand": 7.0,
+          "alignment": 91.4
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 0.0,
+          "market_demand": 4.6,
+          "alignment": -4.6
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 37.0,
+          "market_demand": 4.0,
+          "alignment": 33.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 0.0,
+          "market_demand": 3.9,
+          "alignment": -3.9
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 90.4,
+          "market_demand": 1.5,
+          "alignment": 88.9
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 56.0,
+          "market_demand": 9.1,
+          "alignment": 46.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 17.0,
+          "market_demand": 1.7,
+          "alignment": 15.3
+        }
+      },
+      "overall_alignment_score": 73.9
+    },
+    {
+      "school_name": "Tuck_School_of_Business_at_Dartmouth",
+      "school_location": "New Hampshire",
+      "market_location": "United States",
+      "course_count": 127,
+      "courses_scored": 127,
+      "pedagogy_distribution": {
+        "lecture": 112,
+        "field_study": 2,
+        "simulation": 5,
+        "practicum": 4,
+        "workshop": 3,
+        "case_study": 1
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 100.0,
+          "market_demand": 2.5,
+          "alignment": 97.5
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.5,
+          "alignment": 93.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 96.9,
+          "market_demand": 5.7,
+          "alignment": 91.2
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 92.0,
+          "market_demand": 3.7,
+          "alignment": 88.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 77.7,
+          "market_demand": 13.4,
+          "alignment": 64.3
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 34.0,
+          "market_demand": 2.5,
+          "alignment": 31.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 19.0,
+          "market_demand": 3.2,
+          "alignment": 15.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 73.0,
+          "market_demand": 5.5,
+          "alignment": 67.5
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 38.0,
+          "market_demand": 3.5,
+          "alignment": 34.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 92.0,
+          "market_demand": 6.6,
+          "alignment": 85.4
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 93.4,
+          "market_demand": 3.9,
+          "alignment": 89.5
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 100.0,
+          "market_demand": 5.0,
+          "alignment": 95.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 94.0,
+          "market_demand": 6.1,
+          "alignment": 87.9
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 96.2,
+          "market_demand": 7.0,
+          "alignment": 89.2
+        },
+        "14": {
+          "label": "Cloud & Infrastructure",
+          "school_preparation_score": 0.0,
+          "market_demand": 4.6,
+          "alignment": -4.6
+        },
+        "15": {
+          "label": "Product Marketing",
+          "school_preparation_score": 38.0,
+          "market_demand": 4.0,
+          "alignment": 34.0
+        },
+        "16": {
+          "label": "Sales Operations",
+          "school_preparation_score": 19.0,
+          "market_demand": 3.9,
+          "alignment": 15.1
+        },
+        "17": {
+          "label": "HR & People Operations",
+          "school_preparation_score": 97.0,
+          "market_demand": 1.5,
+          "alignment": 95.5
+        },
+        "18": {
+          "label": "Product Management",
+          "school_preparation_score": 18.0,
+          "market_demand": 9.1,
+          "alignment": 8.9
+        },
+        "19": {
+          "label": "Medical Education Administration",
+          "school_preparation_score": 0.0,
+          "market_demand": 1.7,
+          "alignment": -1.7
+        }
+      },
+      "overall_alignment_score": 67.7
+    },
+    {
+      "school_name": "UVA Darden School of Business",
+      "school_location": "Virginia",
+      "market_location": "United States",
+      "course_count": 126,
+      "courses_scored": 126,
+      "pedagogy_distribution": {
+        "lecture": 109,
+        "simulation": 4,
+        "capstone": 2,
+        "workshop": 4,
+        "case_study": 5,
+        "practicum": 1,
+        "field_study": 1
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Sustainability & ESG",
+          "school_preparation_score": 95.5,
+          "market_demand": 2.5,
+          "alignment": 93.0
+        },
+        "1": {
+          "label": "Private Equity & Investment",
+          "school_preparation_score": 95.0,
+          "market_demand": 6.5,
+          "alignment": 88.5
+        },
+        "2": {
+          "label": "Business Intelligence & Analytics",
+          "school_preparation_score": 55.0,
+          "market_demand": 5.7,
+          "alignment": 49.3
+        },
+        "3": {
+          "label": "Tech Product & Strategy",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.7,
+          "alignment": 96.3
+        },
+        "4": {
+          "label": "Strategic Project Management",
+          "school_preparation_score": 73.3,
+          "market_demand": 13.4,
+          "alignment": 59.9
+        },
+        "5": {
+          "label": "Public Sector Finance",
+          "school_preparation_score": 34.0,
+          "market_demand": 2.5,
+          "alignment": 31.5
+        },
+        "6": {
+          "label": "Pharmaceutical Product Management",
+          "school_preparation_score": 19.0,
+          "market_demand": 3.2,
+          "alignment": 15.8
+        },
+        "7": {
+          "label": "Supply Chain Management",
+          "school_preparation_score": 35.8,
+          "market_demand": 5.5,
+          "alignment": 30.3
+        },
+        "8": {
+          "label": "Compliance & Regulatory",
+          "school_preparation_score": 85.0,
+          "market_demand": 3.5,
+          "alignment": 81.5
+        },
+        "9": {
+          "label": "Healthcare Operations",
+          "school_preparation_score": 0.0,
+          "market_demand": 6.6,
+          "alignment": -6.6
+        },
+        "10": {
+          "label": "Management Consulting",
+          "school_preparation_score": 100.0,
+          "market_demand": 3.9,
+          "alignment": 96.1
+        },
+        "11": {
+          "label": "Marketing & Communications",
+          "school_preparation_score": 56.0,
+          "market_demand": 5.0,
+          "alignment": 51.0
+        },
+        "12": {
+          "label": "Financial Analysis",
+          "school_preparation_score": 100.0,
+          "market_demand": 6.1,
+          "alignment": 93.9
+        },
+        "13": {
+          "label": "Corporate Strategy",
+          "school_preparation_score": 97.6,
+          "market_demand": 7.0,
+          "alignment": 90.6
         },
         "14": {
           "label": "Cloud & Infrastructure",
@@ -1888,444 +1784,172 @@
         },
         "15": {
           "label": "Product Marketing",
-          "school_preparation_score": 24.2,
+          "school_preparation_score": 0.0,
           "market_demand": 4.0,
-          "alignment": 20.2
+          "alignment": -4.0
         },
         "16": {
           "label": "Sales Operations",
-          "school_preparation_score": 24.5,
+          "school_preparation_score": 0.0,
           "market_demand": 3.9,
-          "alignment": 20.6
+          "alignment": -3.9
         },
         "17": {
           "label": "HR & People Operations",
-          "school_preparation_score": 25.8,
+          "school_preparation_score": 89.1,
           "market_demand": 1.5,
-          "alignment": 24.3
+          "alignment": 87.6
         },
         "18": {
           "label": "Product Management",
-          "school_preparation_score": 28.9,
+          "school_preparation_score": 73.0,
           "market_demand": 9.1,
-          "alignment": 19.8
+          "alignment": 63.9
         },
         "19": {
           "label": "Medical Education Administration",
-          "school_preparation_score": 9.3,
+          "school_preparation_score": 45.5,
           "market_demand": 1.7,
-          "alignment": 7.6
+          "alignment": 43.8
         }
       },
-      "overall_alignment_score": 98.7
+      "overall_alignment_score": 61.0
     },
     {
-      "school_name": "UVA Darden School of Business",
-      "school_location": "Virginia",
+      "school_name": "IIT Stuart School of Business",
+      "school_location": "illinois",
       "market_location": "United States",
-      "course_count": 126,
+      "course_count": 15,
+      "courses_scored": 15,
       "pedagogy_distribution": {
-        "lecture": 76,
-        "workshop": 25,
-        "case_study": 17,
-        "simulation": 4,
-        "capstone": 2,
-        "practicum": 1,
-        "field_study": 1
+        "simulation": 1,
+        "case_study": 1,
+        "lecture": 12,
+        "workshop": 1
       },
       "cluster_scores": {
         "0": {
           "label": "Sustainability & ESG",
-          "school_preparation_score": 29.3,
+          "school_preparation_score": 0.0,
           "market_demand": 2.5,
-          "alignment": 26.8
+          "alignment": -2.5
         },
         "1": {
           "label": "Private Equity & Investment",
-          "school_preparation_score": 40.1,
+          "school_preparation_score": 0.0,
           "market_demand": 6.5,
-          "alignment": 33.6
+          "alignment": -6.5
         },
         "2": {
           "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 29.1,
+          "school_preparation_score": 19.0,
           "market_demand": 5.7,
-          "alignment": 23.4
+          "alignment": 13.3
         },
         "3": {
           "label": "Tech Product & Strategy",
-          "school_preparation_score": 37.8,
+          "school_preparation_score": 37.0,
           "market_demand": 3.7,
-          "alignment": 34.1
+          "alignment": 33.3
         },
         "4": {
           "label": "Strategic Project Management",
-          "school_preparation_score": 40.3,
+          "school_preparation_score": 0.0,
           "market_demand": 13.4,
-          "alignment": 26.9
+          "alignment": -13.4
         },
         "5": {
           "label": "Public Sector Finance",
-          "school_preparation_score": 24.4,
+          "school_preparation_score": 0.0,
           "market_demand": 2.5,
-          "alignment": 21.9
+          "alignment": -2.5
         },
         "6": {
           "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 13.5,
+          "school_preparation_score": 0.0,
           "market_demand": 3.2,
-          "alignment": 10.3
+          "alignment": -3.2
         },
         "7": {
           "label": "Supply Chain Management",
-          "school_preparation_score": 28.7,
+          "school_preparation_score": 19.0,
           "market_demand": 5.5,
-          "alignment": 23.2
+          "alignment": 13.5
         },
         "8": {
           "label": "Compliance & Regulatory",
-          "school_preparation_score": 32.7,
+          "school_preparation_score": 0.0,
           "market_demand": 3.5,
-          "alignment": 29.2
+          "alignment": -3.5
         },
         "9": {
           "label": "Healthcare Operations",
-          "school_preparation_score": 12.4,
+          "school_preparation_score": 0.0,
           "market_demand": 6.6,
-          "alignment": 5.8
+          "alignment": -6.6
         },
         "10": {
           "label": "Management Consulting",
-          "school_preparation_score": 47.1,
+          "school_preparation_score": 17.0,
           "market_demand": 3.9,
-          "alignment": 43.2
+          "alignment": 13.1
         },
         "11": {
           "label": "Marketing & Communications",
-          "school_preparation_score": 27.5,
+          "school_preparation_score": 19.0,
           "market_demand": 5.0,
-          "alignment": 22.5
+          "alignment": 14.0
         },
         "12": {
           "label": "Financial Analysis",
-          "school_preparation_score": 43.3,
+          "school_preparation_score": 39.9,
           "market_demand": 6.1,
-          "alignment": 37.2
+          "alignment": 33.8
         },
         "13": {
           "label": "Corporate Strategy",
-          "school_preparation_score": 60.7,
+          "school_preparation_score": 80.0,
           "market_demand": 7.0,
-          "alignment": 53.7
+          "alignment": 73.0
         },
         "14": {
           "label": "Cloud & Infrastructure",
-          "school_preparation_score": 17.8,
+          "school_preparation_score": 41.4,
           "market_demand": 4.6,
-          "alignment": 13.2
+          "alignment": 36.8
         },
         "15": {
           "label": "Product Marketing",
-          "school_preparation_score": 25.6,
+          "school_preparation_score": 0.0,
           "market_demand": 4.0,
-          "alignment": 21.6
+          "alignment": -4.0
         },
         "16": {
           "label": "Sales Operations",
-          "school_preparation_score": 28.3,
+          "school_preparation_score": 0.0,
           "market_demand": 3.9,
-          "alignment": 24.4
+          "alignment": -3.9
         },
         "17": {
           "label": "HR & People Operations",
-          "school_preparation_score": 24.1,
+          "school_preparation_score": 18.0,
           "market_demand": 1.5,
-          "alignment": 22.6
+          "alignment": 16.5
         },
         "18": {
           "label": "Product Management",
-          "school_preparation_score": 24.4,
+          "school_preparation_score": 0.0,
           "market_demand": 9.1,
-          "alignment": 15.3
+          "alignment": -9.1
         },
         "19": {
           "label": "Medical Education Administration",
-          "school_preparation_score": 10.5,
+          "school_preparation_score": 0.0,
           "market_demand": 1.7,
-          "alignment": 8.8
+          "alignment": -1.7
         }
       },
-      "overall_alignment_score": 98.7
-    },
-    {
-      "school_name": "University of Pennsylvania Wharton",
-      "school_location": "Pennsylvania",
-      "market_location": "United States",
-      "course_count": 717,
-      "pedagogy_distribution": {
-        "lecture": 468,
-        "workshop": 153,
-        "simulation": 33,
-        "case_study": 33,
-        "capstone": 24,
-        "practicum": 3,
-        "consulting_project": 3
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 26.9,
-          "market_demand": 2.5,
-          "alignment": 24.4
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 43.7,
-          "market_demand": 6.5,
-          "alignment": 37.2
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 38.8,
-          "market_demand": 5.7,
-          "alignment": 33.1
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 38.6,
-          "market_demand": 3.7,
-          "alignment": 34.9
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 42.8,
-          "market_demand": 13.4,
-          "alignment": 29.4
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 22.6,
-          "market_demand": 2.5,
-          "alignment": 20.1
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 17.8,
-          "market_demand": 3.2,
-          "alignment": 14.6
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 27.2,
-          "market_demand": 5.5,
-          "alignment": 21.7
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 24.9,
-          "market_demand": 3.5,
-          "alignment": 21.4
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 18.4,
-          "market_demand": 6.6,
-          "alignment": 11.8
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 43.9,
-          "market_demand": 3.9,
-          "alignment": 40.0
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 30.0,
-          "market_demand": 5.0,
-          "alignment": 25.0
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 49.7,
-          "market_demand": 6.1,
-          "alignment": 43.6
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 57.5,
-          "market_demand": 7.0,
-          "alignment": 50.5
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 20.5,
-          "market_demand": 4.6,
-          "alignment": 15.9
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 27.8,
-          "market_demand": 4.0,
-          "alignment": 23.8
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 28.1,
-          "market_demand": 3.9,
-          "alignment": 24.2
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 23.2,
-          "market_demand": 1.5,
-          "alignment": 21.7
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 30.4,
-          "market_demand": 9.1,
-          "alignment": 21.3
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 8.3,
-          "market_demand": 1.7,
-          "alignment": 6.6
-        }
-      },
-      "overall_alignment_score": 98.6
-    },
-    {
-      "school_name": "Emory Goizueta Business School",
-      "school_location": "Unknown",
-      "market_location": "United States",
-      "course_count": 43,
-      "pedagogy_distribution": {
-        "lecture": 43
-      },
-      "cluster_scores": {
-        "0": {
-          "label": "Sustainability & ESG",
-          "school_preparation_score": 28.8,
-          "market_demand": 2.5,
-          "alignment": 26.3
-        },
-        "1": {
-          "label": "Private Equity & Investment",
-          "school_preparation_score": 25.7,
-          "market_demand": 6.5,
-          "alignment": 19.2
-        },
-        "2": {
-          "label": "Business Intelligence & Analytics",
-          "school_preparation_score": 43.7,
-          "market_demand": 5.7,
-          "alignment": 38.0
-        },
-        "3": {
-          "label": "Tech Product & Strategy",
-          "school_preparation_score": 34.5,
-          "market_demand": 3.7,
-          "alignment": 30.8
-        },
-        "4": {
-          "label": "Strategic Project Management",
-          "school_preparation_score": 42.0,
-          "market_demand": 13.4,
-          "alignment": 28.6
-        },
-        "5": {
-          "label": "Public Sector Finance",
-          "school_preparation_score": 26.5,
-          "market_demand": 2.5,
-          "alignment": 24.0
-        },
-        "6": {
-          "label": "Pharmaceutical Product Management",
-          "school_preparation_score": 28.7,
-          "market_demand": 3.2,
-          "alignment": 25.5
-        },
-        "7": {
-          "label": "Supply Chain Management",
-          "school_preparation_score": 29.9,
-          "market_demand": 5.5,
-          "alignment": 24.4
-        },
-        "8": {
-          "label": "Compliance & Regulatory",
-          "school_preparation_score": 30.2,
-          "market_demand": 3.5,
-          "alignment": 26.7
-        },
-        "9": {
-          "label": "Healthcare Operations",
-          "school_preparation_score": 27.6,
-          "market_demand": 6.6,
-          "alignment": 21.0
-        },
-        "10": {
-          "label": "Management Consulting",
-          "school_preparation_score": 39.0,
-          "market_demand": 3.9,
-          "alignment": 35.1
-        },
-        "11": {
-          "label": "Marketing & Communications",
-          "school_preparation_score": 35.1,
-          "market_demand": 5.0,
-          "alignment": 30.1
-        },
-        "12": {
-          "label": "Financial Analysis",
-          "school_preparation_score": 38.4,
-          "market_demand": 6.1,
-          "alignment": 32.3
-        },
-        "13": {
-          "label": "Corporate Strategy",
-          "school_preparation_score": 41.6,
-          "market_demand": 7.0,
-          "alignment": 34.6
-        },
-        "14": {
-          "label": "Cloud & Infrastructure",
-          "school_preparation_score": 32.7,
-          "market_demand": 4.6,
-          "alignment": 28.1
-        },
-        "15": {
-          "label": "Product Marketing",
-          "school_preparation_score": 33.6,
-          "market_demand": 4.0,
-          "alignment": 29.6
-        },
-        "16": {
-          "label": "Sales Operations",
-          "school_preparation_score": 32.6,
-          "market_demand": 3.9,
-          "alignment": 28.7
-        },
-        "17": {
-          "label": "HR & People Operations",
-          "school_preparation_score": 36.0,
-          "market_demand": 1.5,
-          "alignment": 34.5
-        },
-        "18": {
-          "label": "Product Management",
-          "school_preparation_score": 34.2,
-          "market_demand": 9.1,
-          "alignment": 25.1
-        },
-        "19": {
-          "label": "Medical Education Administration",
-          "school_preparation_score": 26.6,
-          "market_demand": 1.7,
-          "alignment": 24.9
-        }
-      },
-      "overall_alignment_score": 98.6
+      "overall_alignment_score": 15.3
     }
   ]
 }
