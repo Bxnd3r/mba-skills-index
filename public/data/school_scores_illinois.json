@@ -1,0 +1,145 @@
+{
+  "generated_date": "2026-03-10",
+  "market_location": "Illinois",
+  "schools_analyzed": 1,
+  "results": [
+    {
+      "school_name": "Northwestern University Kellogg School of Management",
+      "school_location": "Illinois",
+      "market_location": "Illinois",
+      "course_count": 140,
+      "pedagogy_distribution": {
+        "lecture": 87,
+        "practicum": 3,
+        "case_study": 12,
+        "workshop": 27,
+        "simulation": 6,
+        "field_study": 3,
+        "capstone": 2
+      },
+      "cluster_scores": {
+        "0": {
+          "label": "Management Consulting & Strategy",
+          "school_preparation_score": 38.7,
+          "market_demand": 3.8,
+          "alignment": 34.9
+        },
+        "1": {
+          "label": "Pharmaceutical Strategy",
+          "school_preparation_score": 4.5,
+          "market_demand": 3.8,
+          "alignment": 0.7
+        },
+        "2": {
+          "label": "Sales & Business Development",
+          "school_preparation_score": 14.6,
+          "market_demand": 7.7,
+          "alignment": 6.9
+        },
+        "3": {
+          "label": "Data Engineering & Analytics",
+          "school_preparation_score": 15.5,
+          "market_demand": 3.8,
+          "alignment": 11.7
+        },
+        "4": {
+          "label": "Cloud Strategy & Consulting",
+          "school_preparation_score": 4.8,
+          "market_demand": 3.1,
+          "alignment": 1.7
+        },
+        "5": {
+          "label": "Digital Transformation Consulting",
+          "school_preparation_score": 4.7,
+          "market_demand": 8.6,
+          "alignment": -3.9
+        },
+        "6": {
+          "label": "Investment Banking",
+          "school_preparation_score": 13.6,
+          "market_demand": 5.9,
+          "alignment": 7.7
+        },
+        "7": {
+          "label": "Product Management",
+          "school_preparation_score": 18.0,
+          "market_demand": 6.6,
+          "alignment": 11.4
+        },
+        "8": {
+          "label": "Technology Consulting",
+          "school_preparation_score": 5.0,
+          "market_demand": 2.9,
+          "alignment": 2.1
+        },
+        "9": {
+          "label": "Healthcare Administration",
+          "school_preparation_score": 5.1,
+          "market_demand": 7.8,
+          "alignment": -2.7
+        },
+        "10": {
+          "label": "Financial Planning & Analysis",
+          "school_preparation_score": 21.1,
+          "market_demand": 5.8,
+          "alignment": 15.3
+        },
+        "11": {
+          "label": "Strategic Leadership",
+          "school_preparation_score": 19.4,
+          "market_demand": 7.2,
+          "alignment": 12.2
+        },
+        "12": {
+          "label": "Compliance & Risk Management",
+          "school_preparation_score": 4.8,
+          "market_demand": 7.8,
+          "alignment": -3.0
+        },
+        "13": {
+          "label": "Operations Management",
+          "school_preparation_score": 12.0,
+          "market_demand": 6.1,
+          "alignment": 5.9
+        },
+        "14": {
+          "label": "Strategy Consulting",
+          "school_preparation_score": 19.1,
+          "market_demand": 4.4,
+          "alignment": 14.7
+        },
+        "15": {
+          "label": "Marketing & Brand Management",
+          "school_preparation_score": 15.4,
+          "market_demand": 5.3,
+          "alignment": 10.1
+        },
+        "16": {
+          "label": "Healthcare Product Management",
+          "school_preparation_score": 4.7,
+          "market_demand": 2.3,
+          "alignment": 2.4
+        },
+        "17": {
+          "label": "Corporate Finance",
+          "school_preparation_score": 18.0,
+          "market_demand": 5.8,
+          "alignment": 12.2
+        },
+        "18": {
+          "label": "Clinical Operations",
+          "school_preparation_score": 0.3,
+          "market_demand": 1.7,
+          "alignment": -1.4
+        },
+        "19": {
+          "label": "Supply Chain & Procurement",
+          "school_preparation_score": 4.4,
+          "market_demand": 5.3,
+          "alignment": -0.9
+        }
+      },
+      "overall_alignment_score": 99.6
+    }
+  ]
+}
