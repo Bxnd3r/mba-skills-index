@@ -35,6 +35,7 @@ export default async function SchoolPage({ params }: { params: { slug: string } 
 
   return (
     <SchoolPageClient
+      allSchools={usData.results}
       school={school}
       usDomainScores={usDomainScores}
       ilDomainScores={ilDomainScores}
