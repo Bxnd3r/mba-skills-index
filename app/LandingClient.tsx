@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import Nav from '@/components/Nav'
 import SchoolSearch from '@/components/SchoolSearch'
@@ -9,6 +9,40 @@ import type { SchoolResult } from '@/lib/data'
 interface Props {
   schools: SchoolResult[]
   jobs: { title: string; location?: string }[]
+}
+
+const DOMAINS = [
+  'Finance & Investment',
+  'Strategy & Consulting',
+  'Marketing & Sales',
+  'Operations & Supply Chain',
+  'Technology & Data',
+  'Healthcare',
+] as const
+
+type SortMode = 'highest' | 'lowest' | typeof DOMAINS[number]
+
+function getDomainScore(school: SchoolResult, domain: string): number {
+  // Sum cluster scores whose label text loosely matches the domain keywords
+  const domainKeywords: Record<string, string[]> = {
+    'Finance & Investment':       ['finance', 'investment', 'banking', 'equity', 'financial'],
+    'Strategy & Consulting':      ['strategy', 'consulting', 'management consulting', 'corporate strategy', 'digital transformation'],
+    'Marketing & Sales':          ['marketing', 'sales', 'brand', 'product marketing', 'communications'],
+    'Operations & Supply Chain':  ['operations', 'supply chain', 'procurement', 'hr', 'people'],
+    'Technology & Data':          ['technology', 'data', 'analytics', 'cloud', 'bi ', 'intelligence', 'tech product', 'product management'],
+    'Healthcare':                 ['healthcare', 'health', 'clinical', 'medical', 'pharmaceutical'],
+  }
+  const keywords = domainKeywords[domain] ?? []
+  let total = 0
+  let count = 0
+  Object.values(school.cluster_scores).forEach(c => {
+    const label = c.label.toLowerCase()
+    if (keywords.some(k => label.includes(k))) {
+      total += c.school_preparation_score
+      count++
+    }
+  })
+  return count > 0 ? total / count : 0
 }
 
 function useReveal() {
@@ -33,16 +67,21 @@ const STATS = [
 export default function LandingClient({ schools, jobs }: Props) {
   useReveal()
   const searchRef = useRef<HTMLDivElement>(null)
+  const [sortMode, setSortMode] = useState<SortMode>('highest')
+  const [sortOpen, setSortOpen] = useState(false)
 
   const scrollToSearch = () => {
     searchRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
     setTimeout(() => { const input = searchRef.current?.querySelector('input'); input?.focus() }, 600)
   }
 
-  const topSchools = [...schools]
+  const sortedSchools = [...schools]
     .filter(s => s.overall_alignment_score !== null)
-    .sort((a, b) => (b.overall_alignment_score ?? 0) - (a.overall_alignment_score ?? 0))
-    .slice(0, 8)
+    .sort((a, b) => {
+      if (sortMode === 'highest') return (b.overall_alignment_score ?? 0) - (a.overall_alignment_score ?? 0)
+      if (sortMode === 'lowest')  return (a.overall_alignment_score ?? 0) - (b.overall_alignment_score ?? 0)
+      return getDomainScore(b, sortMode) - getDomainScore(a, sortMode)
+    })
 
   return (
     <div className="min-h-screen flex flex-col bg-[#f2ede4]">
@@ -128,39 +167,95 @@ export default function LandingClient({ schools, jobs }: Props) {
 
         {/* Leaderboard */}
         <div className="reveal">
-          <div className="flex items-center justify-between mb-4">
-            <p className="text-xs font-mono text-[#a09890] uppercase tracking-widest">Ranked by alignment · National market</p>
-            <div className="flex items-center gap-6 text-xs font-mono text-[#a09890]">
-              <span>Score</span>
+          {/* Header row */}
+          <div className="flex items-center justify-between mb-3">
+            <p className="text-xs font-mono text-[#a09890] uppercase tracking-widest">National market · {sortedSchools.length} schools</p>
+
+            {/* Sort dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => setSortOpen(o => !o)}
+                onBlur={() => setTimeout(() => setSortOpen(false), 150)}
+                className="flex items-center gap-2 px-3 py-1.5 border border-[#c8c0b0] hover:border-[#6b6557] bg-white rounded text-xs font-mono text-[#6b6557] hover:text-[#1a1a18] transition-colors"
+              >
+                <span>
+                  {sortMode === 'highest' ? 'Highest alignment' :
+                   sortMode === 'lowest'  ? 'Lowest alignment'  :
+                   sortMode}
+                </span>
+                <svg className={`w-3 h-3 transition-transform ${sortOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {sortOpen && (
+                <div className="absolute right-0 top-full mt-1 w-52 bg-white border border-[#c8c0b0] rounded shadow-lg overflow-hidden z-[100]">
+                  <div className="px-3 py-1.5 border-b border-[#ede8de]">
+                    <p className="text-[10px] font-mono text-[#a09890] uppercase tracking-wider">Overall</p>
+                  </div>
+                  {(['highest', 'lowest'] as const).map(m => (
+                    <button key={m} onMouseDown={() => { setSortMode(m); setSortOpen(false) }}
+                      className={`w-full text-left px-3 py-2 text-xs font-mono transition-colors hover:bg-[#f2ede4] ${sortMode === m ? 'text-[#10b981]' : 'text-[#6b6557]'}`}>
+                      {m === 'highest' ? '↓ Highest alignment' : '↑ Lowest alignment'}
+                    </button>
+                  ))}
+                  <div className="px-3 py-1.5 border-t border-b border-[#ede8de] mt-1">
+                    <p className="text-[10px] font-mono text-[#a09890] uppercase tracking-wider">By domain</p>
+                  </div>
+                  {DOMAINS.map(d => (
+                    <button key={d} onMouseDown={() => { setSortMode(d); setSortOpen(false) }}
+                      className={`w-full text-left px-3 py-2 text-xs font-mono transition-colors hover:bg-[#f2ede4] ${sortMode === d ? 'text-[#10b981]' : 'text-[#6b6557]'}`}>
+                      ↓ {d}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
+
+          {/* Scrollable window */}
           <div className="border border-[#c8c0b0] rounded overflow-hidden">
-            {topSchools.map((school, i) => (
-              <Link
-                key={school.school_name}
-                href={`/school/${school.school_name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`}
-                className={`flex items-center gap-4 px-5 py-3.5 hover:bg-[#ede8de] transition-colors group ${i > 0 ? 'border-t border-[#ede8de]' : ''}`}
-              >
-                <span className="font-mono text-sm text-[#c8c0b0] w-5 text-right shrink-0">{i + 1}</span>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm text-[#1a1a18] group-hover:text-[#10b981] transition-colors truncate font-body">
-                    {school.school_name}
-                  </p>
-                  <p className="text-xs text-[#a09890] font-mono truncate">{school.school_location}</p>
-                </div>
-                <div className="flex items-center gap-3 shrink-0">
-                  <div className="w-20 h-0.5 bg-[#ede8de] rounded-full overflow-hidden">
-                    <div className="h-full bg-[#10b981] rounded-full" style={{ width: `${(school.overall_alignment_score ?? 0)}%` }} />
-                  </div>
-                  <span className="font-mono text-sm text-[#10b981] w-10 text-right">
-                    {school.overall_alignment_score?.toFixed(1)}
-                  </span>
-                </div>
-                <svg className="w-3.5 h-3.5 text-[#c8c0b0] group-hover:text-[#1a1a18] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            ))}
+            <div className="overflow-y-auto" style={{ maxHeight: '420px' }}>
+              {sortedSchools.map((school, i) => {
+                const displayScore = (sortMode === 'highest' || sortMode === 'lowest')
+                  ? school.overall_alignment_score?.toFixed(1)
+                  : getDomainScore(school, sortMode).toFixed(1)
+                const barWidth = (sortMode === 'highest' || sortMode === 'lowest')
+                  ? (school.overall_alignment_score ?? 0)
+                  : Math.min(100, getDomainScore(school, sortMode))
+
+                return (
+                  <Link
+                    key={school.school_name}
+                    href={`/school/${school.school_name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`}
+                    className={`flex items-center gap-4 px-5 py-3.5 hover:bg-[#ede8de] transition-colors group bg-white ${i > 0 ? 'border-t border-[#ede8de]' : ''}`}
+                  >
+                    <span className="font-mono text-sm text-[#c8c0b0] w-5 text-right shrink-0">{i + 1}</span>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm text-[#1a1a18] group-hover:text-[#10b981] transition-colors truncate font-body">
+                        {school.school_name}
+                      </p>
+                      <p className="text-xs text-[#a09890] font-mono truncate">{school.school_location}</p>
+                    </div>
+                    <div className="flex items-center gap-3 shrink-0">
+                      <div className="w-20 h-0.5 bg-[#ede8de] rounded-full overflow-hidden">
+                        <div className="h-full bg-[#10b981] rounded-full" style={{ width: `${barWidth}%` }} />
+                      </div>
+                      <span className="font-mono text-sm text-[#10b981] w-10 text-right">
+                        {displayScore}
+                      </span>
+                    </div>
+                    <svg className="w-3.5 h-3.5 text-[#c8c0b0] group-hover:text-[#1a1a18] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                )
+              })}
+            </div>
+            {/* Scroll hint — fades once user scrolls */}
+            <div className="border-t border-[#ede8de] px-5 py-2 bg-white flex items-center justify-center gap-1.5">
+              <span className="text-[10px] font-mono text-[#c8c0b0] uppercase tracking-wider">Scroll to see all {sortedSchools.length} schools</span>
+            </div>
           </div>
         </div>
       </section>
