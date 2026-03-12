@@ -116,7 +116,7 @@ export default function LandingClient({ schools, jobs }: Props) {
       </div>
 
       {/* Search section */}
-      <section className="max-w-5xl mx-auto px-6 py-16 w-full relative z-10 bg-[#f2ede4]" ref={searchRef}>
+      <section className="max-w-5xl mx-auto px-6 py-16 w-full bg-[#f2ede4]" style={{position: "relative", zIndex: 20}} ref={searchRef}>
         <div className="reveal mb-8">
           <h2 className="font-display text-3xl font-bold text-[#1a1a18] mb-1">Find your school</h2>
           <p className="text-sm text-[#a09890] font-mono">Type to search · alignment scores vs national job market</p>
@@ -203,10 +203,11 @@ export default function LandingClient({ schools, jobs }: Props) {
       {/* Job ticker */}
       <JobTicker jobs={jobs} />
 
-      <footer className="py-5 px-6 text-center border-t border-[#c8c0b0]">
-        <p className="text-xs text-[#a09890] font-mono">
-          © 2025 MBA Skills Index · Job data refreshed biannually · Not affiliated with any business school
-        </p>
+      <footer className="border-t border-[#c8c0b0] py-6 px-6">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+          <p className="text-xs font-mono text-[#a09890]">© 2026 Ben Anderson</p>
+          <p className="text-xs font-mono text-[#a09890]">MBA Skills Index™</p>
+        </div>
       </footer>
     </div>
   )
