@@ -116,7 +116,7 @@ export default function LandingClient({ schools, jobs }: Props) {
       </div>
 
       {/* Search section */}
-      <section className="max-w-5xl mx-auto px-6 py-16 w-full" ref={searchRef}>
+      <section className="max-w-5xl mx-auto px-6 py-16 w-full relative z-10 bg-[#f2ede4]" ref={searchRef}>
         <div className="reveal mb-8">
           <h2 className="font-display text-3xl font-bold text-[#1a1a18] mb-1">Find your school</h2>
           <p className="text-sm text-[#a09890] font-mono">Type to search · alignment scores vs national job market</p>
