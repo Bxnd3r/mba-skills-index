@@ -108,7 +108,7 @@ export default function LandingClient({ schools, jobs }: Props) {
           style={{ animation: 'fadeUp 0.5s ease 0.1s both' }}
         >
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.02] text-[#1a1a18] tracking-tight mb-5" style={{ fontFeatureSettings: '"liga" 0, "kern" 1' }}>
-            The first website to compare business schools to the job market.
+            The fi‌rst website to compare business schools to the job market.
           </h1>
           <p className="text-base md:text-lg text-[#6b6557] max-w-2xl leading-relaxed font-body">
             Rankings tell you prestige. We tell you preparation — using real job postings, academic NLP methodology, and AI scoring to show which MBAs actually align with what employers hire for.
