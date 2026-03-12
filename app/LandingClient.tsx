@@ -90,6 +90,12 @@ export default function LandingClient({ schools, jobs }: Props) {
           >
             See How It Works
           </Link>
+          <Link
+            href="/mission"
+            className="px-7 py-3 border border-[#c8c0b0] hover:border-[#1a1a18] text-[#6b6557] hover:text-[#1a1a18] font-body text-sm rounded transition-colors"
+          >
+            Why We Built This
+          </Link>
         </div>
 
         {/* Stats strip */}
