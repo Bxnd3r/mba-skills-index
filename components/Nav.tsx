@@ -25,7 +25,7 @@ export default function Nav() {
           <span className="font-display font-semibold text-sm text-[#1a1a18]">MBA Skills Index</span>
         </Link>
         <div className="flex items-center gap-8">
-          {[{ href: '/', label: 'Compare' }, { href: '/methodology', label: 'Methodology' }].map(({ href, label }) => (
+          {[{ href: '/', label: 'Compare' }, { href: '/methodology', label: 'Methodology' }, { href: '/mission', label: 'Mission' }].map(({ href, label }) => (
             <Link key={href} href={href}
               className={`text-sm link-underline transition-colors ${pathname === href ? 'text-[#10b981] font-medium' : 'text-[#6b6557] hover:text-[#1a1a18]'}`}>
               {label}
