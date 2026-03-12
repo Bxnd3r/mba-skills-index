@@ -93,7 +93,10 @@ export default function LandingClient({ schools, jobs }: Props) {
         <div className="flex items-center gap-4 mb-6 pb-4 border-b border-[#c8c0b0]">
           <span className="text-xs font-mono text-[#a09890] uppercase tracking-widest">MBA Skills Index</span>
           <span className="w-1 h-1 rounded-full bg-[#c8c0b0]" />
-          <span className="text-xs font-mono text-[#10b981]">● Updated biannually</span>
+          <span className="text-xs font-mono text-[#10b981] flex items-center gap-1.5">
+            <span className="inline-block w-2 h-2 rounded-full bg-[#10b981]" style={{ animation: 'pulse 2.5s ease-in-out infinite' }} />
+            Updated biannually
+          </span>
           <span className="ml-auto text-xs font-mono text-[#a09890]">
             {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
           </span>
@@ -104,7 +107,7 @@ export default function LandingClient({ schools, jobs }: Props) {
           className="mb-8"
           style={{ animation: 'fadeUp 0.5s ease 0.1s both' }}
         >
-          <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.02] text-[#1a1a18] tracking-tight mb-5">
+          <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.02] text-[#1a1a18] tracking-tight mb-5" style={{ fontFeatureSettings: '"liga" 0, "kern" 1' }}>
             The first website to compare business schools to the job market.
           </h1>
           <p className="text-base md:text-lg text-[#6b6557] max-w-2xl leading-relaxed font-body">

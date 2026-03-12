@@ -107,9 +107,12 @@ export function computeDomainScores(
     const school = matching.length
       ? matching.reduce((s, c) => s + c.school_preparation_score, 0) / matching.length
       : 0
-    const market = matching.length
+    // market_demand is a % (e.g. 6.5), school scores are 0-100.
+    // Multiply by 5 so the market line is visually meaningful on the same radar axis.
+    const marketRaw = matching.length
       ? matching.reduce((s, c) => s + c.market_demand, 0) / matching.length
       : 0
+    const market = Math.min(100, marketRaw * 5)
     return { domain, school: Math.round(school * 10) / 10, market: Math.round(market * 10) / 10 }
   })
 }

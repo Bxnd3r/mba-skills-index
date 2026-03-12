@@ -216,9 +216,11 @@ export default function SchoolPageClient({ school, allSchools, usDomainScores, i
             <div className="border border-[#c8c0b0] rounded bg-white p-5">
               <h3 className="text-xs font-mono text-[#a09890] uppercase tracking-wider mb-3">Teaching Methods</h3>
               <div className="flex flex-wrap gap-2">
-                {Object.entries(school.pedagogy_distribution).map(([method, count]) => (
+                {Object.entries(school.pedagogy_distribution)
+                  .sort(([a, ca], [b, cb]) => (cb as number) - (ca as number))
+                  .map(([method, count]) => (
                   <span key={method} className="px-2.5 py-1 border border-[#c8c0b0] rounded text-xs font-mono text-[#6b6557]">
-                    {method.replace('_', ' ')} · {count}
+                    {method.replace(/_/g, ' ')} · {count}
                   </span>
                 ))}
               </div>
@@ -242,7 +244,9 @@ export default function SchoolPageClient({ school, allSchools, usDomainScores, i
             <h2 className="text-xs font-mono text-[#a09890] uppercase tracking-wider">All 20 Skill Clusters</h2>
           </div>
           <div className="grid sm:grid-cols-2 gap-px bg-[#c8c0b0] border border-[#c8c0b0] rounded overflow-hidden">
-            {Object.entries(school.cluster_scores).map(([k, c]) => (
+            {Object.entries(school.cluster_scores)
+              .sort(([, a], [, b]) => b.school_preparation_score - a.school_preparation_score)
+              .map(([k, c]) => (
               <div key={k} className="flex items-center justify-between px-4 py-3 bg-white hover:bg-[#f8f5f0] transition-colors">
                 <span className="text-xs text-[#6b6557] truncate pr-3">{c.label}</span>
                 <div className="flex items-center gap-3 shrink-0">
