@@ -12,7 +12,7 @@ export default function SchoolSearch({ schools, large }: Props) {
   const inputRef = useRef<HTMLInputElement>(null)
   const router = useRouter()
 
-  const filtered = query.length > 1
+  const filtered = query.length > 0
     ? schools.filter(s => s.school_name.toLowerCase().includes(query.toLowerCase()) && s.overall_alignment_score !== null).slice(0, 8)
     : []
 
@@ -71,7 +71,7 @@ export default function SchoolSearch({ schools, large }: Props) {
         </div>
       )}
 
-      {open && query.length > 1 && filtered.length === 0 && (
+      {open && query.length > 0 && filtered.length === 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-[#c8c0b0] rounded px-4 py-3 text-sm text-[#a09890] z-50">
           No schools found for "{query}"
         </div>
